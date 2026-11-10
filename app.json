@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SistemaVendas",
+    "name": "Sistema de Vendas",
     "slug": "SistemaVendas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tdemobile.sistemavendas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "scheme": "sistemavendas"
   }
 }
